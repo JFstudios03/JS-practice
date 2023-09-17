@@ -73,6 +73,7 @@ function changeName(){
         document.getElementById("greeting").textContent="We will love to meet you!"
     } else {
         document.getElementById("greeting").textContent=`Hello, ${name}!`
+        document.getElementById("greeting-subtext").textContent="It's nice meeting you!"
     }
 
 }
