@@ -41,8 +41,8 @@ function buycredit(){
 // For calculator
 function calculator() {
     let a = prompt("Enter first number");
-    let b = prompt("Enter second number");
     let op = prompt("Enter Operator\n\n*  for multiplication\n/  for division\n-  for subtraction\n+  for addition");
+    let b = prompt("Enter second number");
     op == "*"
     ? ans = Number(a)*Number(b)
     : op == "/"
