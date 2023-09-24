@@ -283,7 +283,7 @@ function mtn(){
             } else if (monthly == 0) {
                 plan();
             }
-        }
+        } else
 
         // 2-3 Months
         if (planSel == 4) {
@@ -332,7 +332,7 @@ function mtn(){
             } else if (month23 == 0) {
                 plan();
             }
-        }
+        } else
 
         // Always on
         if (planSel == 5) {
@@ -375,7 +375,7 @@ function mtn(){
             } else if (alwayson == 99) {
                 mtn();
             }
-        }
+        } else
 
         // Broadband
         if (planSel == 6) {
@@ -438,7 +438,7 @@ function mtn(){
             } else if (broadband == 5) {
                 alert("Sorry, no provision for this yet!");
             }
-        }
+        } else
 
         // Family Packs
         if (planSel == 7) {
@@ -574,6 +574,239 @@ function mtn(){
             } else if (famPack == 0) {
                 plan();
             }
+        } else
+
+        // Hot deals
+        if (planSel == 8) {
+            let hotDeals = prompt("New Xtravalue Plans\n1. N500 - 750MB + N500 Talktime. Val/14days\n2. N1,000 - 1.5GB + N1,000 Talktime. Val/30days\n3. N2,000 - 4.5GB + N2,000 Talktime. Val/30days\n0. Back");
+
+            if (hotDeals == 1) {
+                let hotDealsSel = prompt("You will be charged N500 for the purchase of 750MB + N500 Talktime. Val/14days plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (hotDealsSel == 1) {
+                    alert("Jello! Your request to purchase 750MB + N500 Talktime. Val/14days plan was successful. Thanks for using JFS!");
+                } else if (hotDealsSel == 2) {
+                    alert("Jello! Your request to purchase 750MB + N500 Talktime. Val/14days plan failed. Kindly try again!");
+                }
+            } else if (hotDeals == 2) {
+                let hotDealsSel = prompt("You will be charged N1,000 for the purchase of 1.5GB + N1,000 Talktime. Val/30days plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (hotDealsSel == 1) {
+                    alert("Jello! Your request to purchase 1.5GB + N1,000 Talktime. Val/30days plan was successful. Thanks for using JFS!")
+                } else if (hotDealsSel == 2) {
+                    alert("Jello! Your request to purchase 1.5GB + N1,000 Talktime. Val/30days plan failed. Kindly try again!")
+                }
+            } else if (hotDeals == 3) {
+                let hotDealsSel = prompt("You will be charged N2,000 for the purchase of 4.5GB + N2,000 Talktime. Val/30days plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (hotDealsSel == 1) {
+                    alert("Jello! Your request to purchase 4.5GB + N2,000 Talktime. Val/30days plan was successful. Thanks for using JFS!")
+                } else if (hotDealsSel == 2) {
+                    alert("Jello! Your request to purchase 4.5GB + N2,000 Talktime. Val/30days plan failed. Kindly try again!")
+                }
+            } else if (hotDeals == 0) {
+                plan();
+            }
+        } else
+
+        // 5G Plans
+        if (planSel == 9) {
+            let plans5g = prompt("1. N5,000 for 20GB\n2. N6,000 for 25GB\n3. N10,000 for 40GB\n4. N15,000 for 75GB\n5. N20,000 for 120GB\n6. N30,000 for 200GB\n7. N20,000 for 100GB\n0. Back");
+
+            if (plans5g == 1) {
+                let plans5gSel = prompt("You will be charged N5,000 for the purchase of 20GB plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (plans5gSel == 1) {
+                    alert("Jello! Your request to purchase 20GB plan was successful. Thanks for using JFS!");
+                } else if (plans5gSel == 2) {
+                    alert("Jello! Your request to purchase 20GB plan failed. Kindly try again!");
+                }
+            } else if (plans5g == 2) {
+                let plans5gSel = prompt("You will be charged N6,000 for the purchase of 25GB plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (plans5gSel == 1) {
+                    alert("Jello! Your request to purchase 25GB plan was successful. Thanks for using JFS!")
+                } else if (plans5gSel == 2) {
+                    alert("Jello! Your request to purchase 25GB plan failed. Kindly try again!")
+                }
+            } else if (plans5g == 3) {
+                let plans5gSel = prompt("You will be charged N10,000 for the purchase of 40GB plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (plans5gSel == 1) {
+                    alert("Jello! Your request to purchase 40GB plan was successful. Thanks for using JFS!")
+                } else if (plans5gSel == 2) {
+                    alert("Jello! Your request to purchase 40GB plan failed. Kindly try again!")
+                }
+            } else if (plans5g == 4) {
+                let plans5gSel = prompt("You will be charged N15,000 for the purchase of 75GB plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (plans5gSel == 1) {
+                    alert("Jello! Your request to purchase 75GB plan was successful. Thanks for using JFS!")
+                } else if (plans5gSel == 2) {
+                    alert("Jello! Your request to purchase 75GB plan failed. Kindly try again!")
+                }
+            } else if (plans5g == 5) {
+                let plans5gSel = prompt("You will be charged N20,000 for the purchase of 120GB plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (plans5gSel == 1) {
+                    alert("Jello! Your request to purchase 120GB plan was successful. Thanks for using JFS!")
+                } else if (plans5gSel == 2) {
+                    alert("Jello! Your request to purchase 120GB plan failed. Kindly try again!")
+                }
+            } else if (plans5g == 6) {
+                let plans5gSel = prompt("You will be charged N30,000 for the purchase of 200GB plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (plans5gSel == 1) {
+                    alert("Jello! Your request to purchase 200GB plan was successful. Thanks for using JFS!")
+                } else if (plans5gSel == 2) {
+                    alert("Jello! Your request to purchase 200GB plan failed. Kindly try again!")
+                }
+            } else if (plans5g == 7) {
+                let plans5gSel = prompt("You will be charged N20,000 for the purchase of 100GB plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (plans5gSel == 1) {
+                    alert("Jello! Your request to purchase 100GB plan was successful. Thanks for using JFS!")
+                } else if (plans5gSel == 2) {
+                    alert("Jello! Your request to purchase 100GB plan failed. Kindly try again!")
+                }
+            } else if (plans5g == 0) {
+                plan();
+            }
+        } else
+        
+        // freeYT
+        if (planSel == 10) {
+            let freeYT = prompt("Buy & get free data to stream YouTube@Night(11pm to 6am)\n\n1. Weekly Plan\n2. Monthly Plan\n0. Back\n99. MainMenu");
+
+            if (freeYT == 1) {
+                let freeYTSel = prompt("Weekly Plan\n\n1. N300 for 350MB\n2. N500 for 1GB\n3. N1,000 for 2GB\n4. N500 for 750MB(2-Week plan)\n0. Back\n99. MainMenu");
+
+                if (freeYTSel == 1) {
+                    let freeYTSel = prompt("You will be charged N300 for the purchase of 350MB YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 350MB YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 350MB YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 2) {
+                    let freeYTSel = prompt("You will be charged N500 for the purchase of 1GB YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 1GB YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 1GB YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 3) {
+                    let freeYTSel = prompt("You will be charged N1,000 for the purchase of 2GB YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 2GB YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 2GB YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 4) {
+                    let freeYTSel = prompt("You will be charged N500 for the purchase of 750MB(2-Week plan) YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 750MB(2-Week plan) YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 750MB(2-Week plan) YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 0) {
+                    plan();
+                } else if (freeYTSel == 99) {
+                    mtn();
+                }
+            } else if (freeYT == 2) {
+                let freeYTSel = prompt("Monthly Plan\n\n1. N1,000 for 1.5GB\n2. N1,200 for 2GB\n3. N1,500 for 3GB\n4. N2,000 for 4.5GB\n5. N2,500 for 6GB\n6. N3,000 for 10GB\n7. Next\n0. Back\n99. MainMenu");
+
+                if (freeYTSel == 1) {
+                    let freeYTSel = prompt("You will be charged N1,000 for the purchase of 1.5GB Monthly YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 1.5GB Monthly YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 1.5GB Monthly YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 2) {
+                    let freeYTSel = prompt("You will be charged N1,200 for the purchase of 2GB Monthly YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 2GB Monthly YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 2GB Monthly YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 3) {
+                    let freeYTSel = prompt("You will be charged N1,500 for the purchase of 3GB Monthly YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 3GB Monthly YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 3GB Monthly YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 4) {
+                    let freeYTSel = prompt("You will be charged N2,000 for the purchase of 4.5GB Monthly YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 4.5GB Monthly YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 4.5GB Monthly YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 5) {
+                    let freeYTSel = prompt("You will be charged N2,500 for the purchase of 6GB Monthly YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 6GB Monthly YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 6GB Monthly YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 6) {
+                    let freeYTSel = prompt("You will be charged N3,000 for the purchase of 10GB Monthly YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 10GB Monthly YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 10GB Monthly YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 7) {
+                    freeYTNext();
+                } else if (freeYTSel == 0) {
+                    plan();
+                } else if (freeYTSel == 99) {
+                    mtn();
+                }
+            } else if (freeYT == 99) {
+                mtn();
+            } else if (freeYT == 0) {
+                plan();
+            }
+        } else
+
+        // Manage Data
+        if (planSel == 11) {
+            let manData = prompt("Manage your Data Bundle\n\n1. View Active Data Bundle\n2. Opt in for Auto renewal\n3. Cancel Auto renewal\n4. Deal Zone Offers\n0. Back");
+
+            if (manData == 1) {
+                alert("Service currently unavailable.");
+            } else if (manData == 2) {
+                let manDatano = prompt("Input Number");
+
+                alert(`You have successfully opted in for auto renewal on ${manDatano}`);
+            } else if (manData == 3) {
+                let manDatano = prompt("Input Number");
+
+                alert(`You have successfully opted out of auto renewal on ${manDatano}`);
+            } else if (manData == 4) {
+                alert("Service currently unavailable.");
+            } else if (manData == 0) {
+                plan();
+            }
+        } else
+
+        //Back
+        if (planSel == 0) {
+            mtn();
         }
     }
 
@@ -755,8 +988,34 @@ function mtn(){
             }
     }
 
-    function socBun(){
+    function freeYTNext(){
+        let freeYTSel = prompt("7. N3,500 for 12GB\n8. N5,000 for 20GB\n0. Back\n99. MainMenu");
 
+                if (freeYTSel == 7) {
+                    let freeYTSel = prompt("You will be charged N3,500 for the purchase of 12GB Monthly YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 12GB Monthly YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 12GB Monthly YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 8) {
+                    let freeYTSel = prompt("You will be charged N5,000 for the purchase of 20GB Monthly YT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+    
+                    if (freeYTSel == 1) {
+                        alert("Jello! Your request to purchase 20GB Monthly YT plan was successful. Thanks for using JFS!");
+                    } else if (freeYTSel == 2) {
+                        alert("Jello! Your request to purchase 20GB Monthly YT plan failed. Kindly try again!");
+                    }
+                } else if (freeYTSel == 0) {
+                    plan();
+                } else if (freeYTSel == 99) {
+                    mtn();
+                }
+    }
+
+    function socBun(){
+        
     }
 
     function busPlans(){
