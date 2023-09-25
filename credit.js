@@ -1015,7 +1015,344 @@ function mtn(){
     }
 
     function socBun(){
+        let planSel = prompt("1. WhatsApp\n2. Facebook\n3. Instagram\n4. TikTok\n5. Ayoba\n6. All Social Bundles\n7. YouTube, Instagram and TikTok\n8. Opera Mini & News\n9. Social Mega bundle\n99. Next");
+
+        // WhatsApp
+        if (planSel == 1) {
+            let WhatsApp = prompt("WhatsApp\n\n1. Daily @ N25 for 25MB\n2. Weekly @ N50 for 50MB\n3. Monthly @ N150 for 150MB\n0. Back");
+
+            if (WhatsApp == 1) {
+                let WhatsAppSel = prompt("You will be charged N25 for the purchase of 25MB WhatsApp Daily plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (WhatsAppSel == 1) {
+                    alert("Jello! Your request to purchase 25MB WhatsApp daily plan was successful. Thanks for using JFS!");
+                } else if (WhatsAppSel == 2) {
+                    alert("Jello! Your request to purchase 25MB WhatsApp daily plan failed. Kindly try again!");
+                }
+            } else if (WhatsApp == 2) {
+                let WhatsAppSel = prompt("You will be charged N50 for the purchase of 50MB WhatsApp Weekly plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (WhatsAppSel == 1) {
+                    alert("Jello! Your request to purchase 50MB WhatsApp Weekly plan was successful. Thanks for using JFS!")
+                } else if (WhatsAppSel == 2) {
+                    alert("Jello! Your request to purchase 50MB WhatsApp Weekly plan failed. Kindly try again!")
+                }
+            } else if (WhatsApp == 3) {
+                let WhatsAppSel = prompt("You will be charged N150 for the purchase of 150MB WhatsApp Monthly plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (WhatsAppSel == 1) {
+                    alert("Jello! Your request to purchase 150MB WhatsApp Monthly plan was successful. Thanks for using JFS!")
+                } else if (WhatsAppSel == 2) {
+                    alert("Jello! Your request to purchase 150MB WhatsApp Monthly plan failed. Kindly try again!")
+                }
+            } else if (WhatsApp == 0) {
+                socBun();
+            }
+        } else
         
+        // Facebook
+        if (planSel == 2) {
+            let fb = prompt("Facebook\n\n1. Daily @ N25 for 25MB\n2. Weekly @ N50 for 50MB\n3. Monthly @ N150 for 150MB\n0. Back");
+
+            if (fb == 1) {
+                let fbSel = prompt("You will be charged N25 for the purchase of 25MB Facebook Daily plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (fbSel == 1) {
+                    alert("Jello! Your request to purchase 25MB Facebook daily plan was successful. Thanks for using JFS!");
+                } else if (fbSel == 2) {
+                    alert("Jello! Your request to purchase 25MB Facebook daily plan failed. Kindly try again!");
+                }
+            } else if (fb == 2) {
+                let fbSel = prompt("You will be charged N50 for the purchase of 50MB Facebook Weekly plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (fbSel == 1) {
+                    alert("Jello! Your request to purchase 50MB Facebook Weekly plan was successful. Thanks for using JFS!");
+                } else if (fbSel == 2) {
+                    alert("Jello! Your request to purchase 50MB Facebook Weekly plan failed. Kindly try again!");
+                }
+            } else if (fb == 3) {
+                let fbSel = prompt("You will be charged N150 for the purchase of 150MB Facebook Monthly plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (fbSel == 1) {
+                    alert("Jello! Your request to purchase 150MB Facebook Monthly plan was successful. Thanks for using JFS!");
+                } else if (fbSel == 2) {
+                    alert("Jello! Your request to purchase 150MB Facebook Monthly plan failed. Kindly try again!");
+                }
+            } else if (fb == 0) {
+                socBun();
+            }
+        } else
+        
+        // IG
+        if (planSel == 3) {
+            let ig = prompt("Instagram\n\n1. N100 for 250MB/1 day\n2. N100 for 350MB\n3. N200 for 1GB\n4. N200 for 1GB/3 days\n0. Back");
+
+            if (ig == 1) {
+                let igSel = prompt("You will be charged N100 for the purchase of 250MB/1 day IG plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (igSel == 1) {
+                    alert("Jello! Your request to purchase 250MB/1 day IG plan was successful. Thanks for using JFS!");
+                } else if (igSel == 2) {
+                    alert("Jello! Your request to purchase 250MB/1 day IG plan failed. Kindly try again!");
+                }
+            } else if (ig == 2) {
+                let igSel = prompt("You will be charged N100 for the purchase of 350MB IG plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (igSel == 1) {
+                    alert("Jello! Your request to purchase 350MB IG plan was successful. Thanks for using JFS!");
+                } else if (igSel == 2) {
+                    alert("Jello! Your request to purchase 350MB IG plan failed. Kindly try again!");
+                }
+            } else if (ig == 3) {
+                let igSel = prompt("You will be charged N200 for the purchase of 1GB IG plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (igSel == 1) {
+                    alert("Jello! Your request to purchase 1GB IG plan was successful. Thanks for using JFS!");
+                } else if (igSel == 2) {
+                    alert("Jello! Your request to purchase 1GB IG plan failed. Kindly try again!");
+                }
+            } else if (ig == 4) {
+                let igSel = prompt("You will be charged N200 for the purchase of 1GB/3 days IG plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (igSel == 1) {
+                    alert("Jello! Your request to purchase 1GB/3 days IG plan was successful. Thanks for using JFS!");
+                } else if (igSel == 2) {
+                    alert("Jello! Your request to purchase 1GB/3 days IG plan failed. Kindly try again!");
+                }
+            } else if (ig == 0) {
+                socBun();
+            }
+        } else
+
+        // TT
+        if (planSel == 4) {
+            let tt = prompt("TikTok\n\n1. N50 for 200MB/1 day\n2. N350 for 2GB/7 days\n0. Back");
+
+            if (tt == 1) {
+                let ttSel = prompt("You will be charged N50 for the purchase of 200MB/1 day TT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (ttSel == 1) {
+                    alert("Jello! Your request to purchase 200MB/1 day TT plan was successful. Thanks for using JFS!");
+                } else if (ttSel == 2) {
+                    alert("Jello! Your request to purchase 200MB/1 day TT plan failed. Kindly try again!");
+                }
+            } else if (tt == 2) {
+                let ttSel = prompt("You will be charged N350 for the purchase of 2GB/7 days TT plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (ttSel == 1) {
+                    alert("Jello! Your request to purchase 2GB/7 days TT plan was successful. Thanks for using JFS!");
+                } else if (ttSel == 2) {
+                    alert("Jello! Your request to purchase 2GB/7 days TT plan failed. Kindly try again!");
+                }
+            } else if (tt == 0) {
+                socBun();
+            }
+        } else
+
+        // Ayoba
+        if (planSel == 5) {
+            let ayoba = prompt("Ayoba\n\n1. N25 for 25MB/1 day\n2. N50 for 50MB/7 days\n3. N150 for 150MB/30 days\n0. Back");
+
+            if (ayoba == 1) {
+                let ayobaSel = prompt("You will be charged N25 for the purchase of 25MB Ayoba Daily plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (ayobaSel == 1) {
+                    alert("Jello! Your request to purchase 25MB Ayoba daily plan was successful. Thanks for using JFS!");
+                } else if (ayobaSel == 2) {
+                    alert("Jello! Your request to purchase 25MB Ayoba daily plan failed. Kindly try again!");
+                }
+            } else if (ayoba == 2) {
+                let ayobaSel = prompt("You will be charged N50 for the purchase of 50MB Ayoba 7 days plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (ayobaSel == 1) {
+                    alert("Jello! Your request to purchase 50MB Ayoba 7 days plan was successful. Thanks for using JFS!");
+                } else if (ayobaSel == 2) {
+                    alert("Jello! Your request to purchase 50MB Ayoba 7 days plan failed. Kindly try again!");
+                }
+            } else if (ayoba == 3) {
+                let ayobaSel = prompt("You will be charged N150 for the purchase of 150MB Ayoba 30 days plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (ayobaSel == 1) {
+                    alert("Jello! Your request to purchase 150MB Ayoba 30 days plan was successful. Thanks for using JFS!");
+                } else if (ayobaSel == 2) {
+                    alert("Jello! Your request to purchase 150MB Ayoba 30 days plan failed. Kindly try again!");
+                }
+            } else if (ayoba == 0) {
+                socBun();
+            }
+        } else
+
+        // All Social Bundles
+        if (planSel == 6) {
+            let asb = prompt("For use on all social apps\n\n1. Daily @ N50 for 150MB\n2. Weekly @ N100 for 350MB\n3. Monthly @ N250 for 1GB\n0. Back");
+
+            if (asb == 1) {
+                let asbSel = prompt("You will be charged N50 for the purchase of 150MB social Daily plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (asbSel == 1) {
+                    alert("Jello! Your request to purchase 150MB social daily plan was successful. Thanks for using JFS!");
+                } else if (asbSel == 2) {
+                    alert("Jello! Your request to purchase 150MB social daily plan failed. Kindly try again!");
+                }
+            } else if (asb == 2) {
+                let asbSel = prompt("You will be charged N100 for the purchase of 350MB social Weekly plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (asbSel == 1) {
+                    alert("Jello! Your request to purchase 350MB social Weekly plan was successful. Thanks for using JFS!");
+                } else if (asbSel == 2) {
+                    alert("Jello! Your request to purchase 350MB social Weekly plan failed. Kindly try again!");
+                }
+            } else if (asb == 3) {
+                let asbSel = prompt("You will be charged N250 for the purchase of 1GB social Monthly plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (asbSel == 1) {
+                    alert("Jello! Your request to purchase 1GB social Monthly plan was successful. Thanks for using JFS!");
+                } else if (asbSel == 2) {
+                    alert("Jello! Your request to purchase 1GB social Monthly plan failed. Kindly try again!");
+                }
+            } else if (asb == 0) {
+                socBun();
+            }
+        } else
+
+        // YT, IG, TT
+        if (planSel == 7) {
+            let yit = prompt("Subscribe to this bundle to enjoy video streaming or download on YouTube, Instagram & TikTOk for 24hrs.\n\n1. Daily @ N100 for 350MB\n0. Back");
+
+            if (yit == 1) {
+                let yitSel = prompt("You will be charged N100 for the purchase of 350MB daily plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (yitSel == 1) {
+                    alert("Jello! Your request to purchase 350MB daily plan was successful. Thanks for using JFS!");
+                } else if (yitSel == 2) {
+                    alert("Jello! Your request to purchase 350MB daily plan failed. Kindly try again!");
+                }
+            } else if (yit == 0) {
+                socBun();
+            }
+        } else
+
+        // Opera Mini & News
+        if (planSel == 8) {
+            let opera = prompt("For use only on Opera Mini Browser and Opera News app. Streaming & downloads not allowed.\n\n1. N20/25MB/1day\n2. N50/100MB/7 days\n3. N100/300MB/30 days\n0. Back");
+
+            if (opera == 1) {
+                let operaSel = prompt("You will be charged N20 for the purchase of 25MB/1 day plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (operaSel == 1) {
+                    alert("Jello! Your request to purchase 25MB/1 day plan was successful. Thanks for using JFS!");
+                } else if (operaSel == 2) {
+                    alert("Jello! Your request to purchase 25MB/1 day plan failed. Kindly try again!");
+                }
+            } else if (opera == 2) {
+                let operaSel = prompt("You will be charged N50 for the purchase of 100MB/7 days plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (operaSel == 1) {
+                    alert("Jello! Your request to purchase 100MB/7 days plan was successful. Thanks for using JFS!");
+                } else if (operaSel == 2) {
+                    alert("Jello! Your request to purchase 100MB/7 days plan failed. Kindly try again!");
+                }
+            } else if (opera == 3) {
+                let operaSel = prompt("You will be charged N100 for the purchase of 300MB/30 days plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (operaSel == 1) {
+                    alert("Jello! Your request to purchase 300MB/30 days plan was successful. Thanks for using JFS!");
+                } else if (operaSel == 2) {
+                    alert("Jello! Your request to purchase 300MB/30 days plan failed. Kindly try again!");
+                }
+            } else if (opera == 0) {
+                socBun();
+            }
+        } else
+
+        // Social Mega Bundle
+        if (planSel == 9) {
+            let smb = prompt("Subscribe to this bundle to enjoy Video streaming or download on Facebook, YouTube & Instagram\n\n1. 750MB for N200\n2. 1GB for N300\n0. Back");
+
+            if (smb == 1) {
+                let smbSel = prompt("You will be charged N200 for the purchase of 750MB Social Mega Bundle plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (smbSel == 1) {
+                    alert("Jello! Your request to purchase 750MB Social Mega Bundle plan was successful. Thanks for using JFS!");
+                } else if (smbSel == 2) {
+                    alert("Jello! Your request to purchase 750MB Social Mega Bundle plan failed. Kindly try again!");
+                }
+            } else if (smb == 2) {
+                let smbSel = prompt("You will be charged N300 for the purchase of 1GB Social Mega Bundle plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (smbSel == 1) {
+                    alert("Jello! Your request to purchase 1GB Social Mega Bundle plan was successful. Thanks for using JFS!");
+                } else if (smbSel == 2) {
+                    alert("Jello! Your request to purchase 1GB Social Mega Bundle plan failed. Kindly try again!");
+                }
+            } else if (smb == 0) {
+                socBun();
+            }
+        } else
+
+        //Next
+        if (planSel == 99) {
+            socBunNext();
+        }
+    }
+
+    function socBunNext(){
+        let planSel = prompt("10. 2GO\n11. WeChat\n0. Back");
+
+        // 2GO
+        if (planSel == 10) {
+            let go2 = prompt("2GO\n\n1. Daily @ N25 for 25MB\n2. Weekly @ N50 for 50MB\n3. Monthly @ N150 for 150MB\n0. Back");
+
+            if (go2 == 1) {
+                let go2Sel = prompt("You will be charged N25 for the purchase of 25MB 2GO Daily plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (go2Sel == 1) {
+                    alert("Jello! Your request to purchase 25MB 2GO daily plan was successful. Thanks for using JFS!");
+                } else if (go2Sel == 2) {
+                    alert("Jello! Your request to purchase 25MB 2GO daily plan failed. Kindly try again!");
+                }
+            } else if (go2 == 11) {
+                let go2Sel = prompt("You will be charged N50 for the purchase of 50MB 2GO Weekly plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (go2Sel == 1) {
+                    alert("Jello! Your request to purchase 50MB 2GO Weekly plan was successful. Thanks for using JFS!")
+                } else if (go2Sel == 2) {
+                    alert("Jello! Your request to purchase 50MB 2GO Weekly plan failed. Kindly try again!")
+                }
+            } else if (go2 == 3) {
+                let go2Sel = prompt("You will be charged N150 for the purchase of 150MB 2GO Monthly plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (go2Sel == 1) {
+                    alert("Jello! Your request to purchase 150MB 2GO Monthly plan was successful. Thanks for using JFS!")
+                } else if (go2Sel == 2) {
+                    alert("Jello! Your request to purchase 150MB 2GO Monthly plan failed. Kindly try again!")
+                }
+            } else if (go2 == 0) {
+                socBunNext();
+            }
+        } else
+        
+        // Facebook
+        if (planSel == 2) {
+            let wechat = prompt("WeChat\n\n1. Daily @ N25 for 25MB\n0. Back");
+
+            if (wechat == 1) {
+                let wechatSel = prompt("You will be charged N25 for the purchase of 25MB WeChat Daily plan. To proceed, select:\n1. Proceed\n2. Cancel");
+
+                if (wechatSel == 1) {
+                    alert("Jello! Your request to purchase 25MB WeChat daily plan was successful. Thanks for using JFS!");
+                } else if (wechatSel == 2) {
+                    alert("Jello! Your request to purchase 25MB WeChat daily plan failed. Kindly try again!");
+                }
+            } else if (fb == 0) {
+                socBunNext();
+            }
+        } else
+        
+        //Back
+        if (planSel == 0) {
+            socBun();
+        }
     }
 
     function busPlans(){
